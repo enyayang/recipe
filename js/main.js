@@ -7,4 +7,9 @@ $(function () {
         $(this).toggleClass('done');
         // toggle意味原本沒有class done的加入class done; 原本有class done的去除class done.
     });
+
+    $('.upper-section').click(function () {
+        $('.card').toggleClass('active');
+    });
+
 });
