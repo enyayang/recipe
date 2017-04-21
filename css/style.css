@@ -28,7 +28,13 @@ body {
 
 .card {
     width: 100%;
-    margin: 15px auto;
+    margin: 100px auto;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        margin: 15px auto;
+    }
 }
 
 .card>.upper-section,
@@ -80,7 +86,7 @@ body {
     color: white;
     transform: rotateX(15deg);
     transform-origin: bottom;
-    filter: grayscale(10%) brightness(1.1);
+    filter: grayscale(10%) brightness(1.15);
     cursor: pointer;
     /* todo 設定filter屬性控制照片明亮與飽和度 */
 }
